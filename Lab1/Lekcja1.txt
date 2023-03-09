@@ -1,0 +1,82 @@
+Na dwóch można zajęciach nie być
+Trzeba stworzyć repozytorium git, będzie sprawdzane
+Jak czegoś nie skończyliśmy, to trzeba dokończyć w domu
+Projekty robimy dla siebie, a nie dla Pana Daniluka, żeby się czegoś nauczyć
+W naszym interesie jest utrzymanie dostępu, aby móc mieć dostęp w każdej chwili
+Kod z zajęć będziemy na Wirtualnym Kampusie udostępniać
+Ponumerowane foldery LB1, LB2, LB3
+Ocena jest ciągła
+Przedmiot kończy się egzaminem
+Jak musimy się z kimś pilnie skontakować, to wychodzimy, korzystanie z toalety nie trzeba się tłumaczyć
+
+Język UML zawiera swoją składnie itd.
+
+STAR UML to tylko ołówek!!! Narzędzie wizualnego programowania, żeby robić sobie schematy i aby automatycznie wygenerować schemat kodu. Język mieści się w głowie i jest opisany w dokumentacji.
+
+Można to zrobić tylko na jeden sposób prawidłowo - robimy to zgodnie ze standardami
+Wszelkie niejasności będą rozstrzygane poprzez oficjalną dokumentację
+
+UML 2.5.1 oficjalna dokumentacja na stronie OMG
+
+UML Roumbough, Jacobson - preprint
+Skrypt bardzo fajny - wzbogacony o fragmenty kodu - Pracownia Programowania Obiektowego
+STARUML 5.0.2.1570
+Trzeba znać zestaw symboli i zasady ich łączenia
+4+1 view model - bo na system możemy spojrzeć z 4 perspektyw - łączy je perspektywa przypadków użycia
+
+Lewy pasek - toolbox (słowa - wyrażenia, który będziemy łączyć w zdania). Piktogramy - oznaczają literki lub słowa.
+
+Prawy pasek - eksplorator programu
+Properties - własności
+
+Centralne miejsce - formularz, metodą drag and drop umieszczamy symbole i będziemy je łączyć
+
+Przypadki użycia (scenarios) - rozpisanie na role i za każdą role odpowiada aktor. Dobrze jest uchwycić wizję i przekazać ją w sposób materialny. Musimy zobaczyć czego chcemy od systemu i czy on będzie w stanie nam oczekiwania zaspokoić. Czy jeśli to co chcemy i to co on może nam dać się spotkamy otrzymamy podstawowe funkcjonalności.
+
+Funkcjonalność - zbiór funkcji dotyczący jednego określonego zadania
+
+Przypadki użycia powinny przedstawiać funkcjonalności (nie powinno być ich zbyt dużo)
+
+Przykład: wizja skonstruowania systemu (nie świata rzeczywistego)
+
+Przykład:
+-robimy system
+-robimy aktora
+-robimy przypadek użycia
+
+Aktor - umieszczony z lewej strony, bo jesteśmy zewnątrz (klienci) - USER
+	- umieszczony z prawej strony jest wewnątrz (administrator)
+
+Analityk wie, czego chciałby user od systemu
+
+Przypadek użycia
+	-kup auto
+	-pokaż katalog
+	-złóż zamówienie
+
+Warunek opcjonalny:
+	- strzałka przerywana (Kup auto) <- - - - - - (Pokaż katalog) - jeśli wymagane
+	- strzałka stała połączona z Aktorem (Aktor) --------- Kup auto
+							 	 \-------- Złóż zamówienie
+
+
+Projekt będzie zapisywany w formacie UML, ale tak naprawdę będzie zapisywany w postaci xmlowego skryptu, dlatego wszystkie relacje będą miały odpowiednik w schemacie xml. Dlatego żeby usunąć coś trzeba użyć opcji "Delete from model"
+
+Po zrobieniu schematu robimy Format - line colors - żeby było czarno-białe
+
+Wzorce projektowe - ogólne rozwiązania często spotykanych problemów. Mamy oryginalny problem, więc musimy go dopasować do naszego problemu. Bazują na doświadczeniach wcześniejszych sprawdzonych dokonań.
+
+Podstawowy wzorzec - przypadków użycia
+
+To jest najbardziej abstrakcyjny sposób - wizja autora. Jest zrozumiały dla każdego, ale bardzo ogólny.
+
+
+100 strona z Rumbaugha UML 2.0 - dodać swoje pomysły.
+
+Opis warunków - dwa razy w relacje klikamy.
+
+
+
+
+
+

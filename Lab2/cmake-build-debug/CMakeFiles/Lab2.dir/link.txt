@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Lab2.dir/Jamnik.cpp.o CMakeFiles/Lab2.dir/Pies.cpp.o CMakeFiles/Lab2.dir/Ssak.cpp.o CMakeFiles/Lab2.dir/main.cpp.o -o Lab2 

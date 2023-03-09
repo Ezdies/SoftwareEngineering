@@ -1,0 +1,25 @@
+1 Projekt - przypadki użycia dowolnego sklepu
+2 Prosta hierarchia generalizacji i specjalizacji dla klas
+3. Widok logiczny systemu
+4. Strzałka w górę to generalizacja
+5. Poprawnie umieszczyć atrybuty, typy widoczności, stosować zasadę enkapsulacji danych
+6. Będzie to sprawdzenie kreatywności
+7. Tu będzie głównie praca 
+8. Poziom osi wypełnić
+Zapisać w projekcie i wygenerować do c++
+8 plików. Plik nagłówkowy, wykonywalny, main i UML
+
+Typ, poziom dostępu itd
+Typ string z małej litery
+
+Czym sie wyróżnia ssak pośród zwierząt.
+I trzeba zauważyć czym bardziej specjalizowane klasy różnią się od bardziej zgeneralizowanych 
+
+Atrybuty:
+-umaszczenie,
+-wiek
+
+Ssak:
+-długośćWłosów
+
+
