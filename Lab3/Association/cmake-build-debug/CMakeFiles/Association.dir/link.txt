@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Association.dir/main.cpp.o CMakeFiles/Association.dir/TBook.cpp.o CMakeFiles/Association.dir/TReader.cpp.o -o Association 
