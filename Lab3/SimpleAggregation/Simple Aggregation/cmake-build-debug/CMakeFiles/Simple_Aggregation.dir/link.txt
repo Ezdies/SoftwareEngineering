@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Simple_Aggregation.dir/main.cpp.o CMakeFiles/Simple_Aggregation.dir/TPupil.cpp.o CMakeFiles/Simple_Aggregation.dir/TSchool.cpp.o -o Simple_Aggregation 

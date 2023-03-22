@@ -1,0 +1,3 @@
+/mnt/c/Users/bvbcl/Documents/Inżynieria oprogramowania/Lab3/Simple Aggregation/cmake-build-debug/CMakeFiles/Simple_Aggregation.dir
+/mnt/c/Users/bvbcl/Documents/Inżynieria oprogramowania/Lab3/Simple Aggregation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/bvbcl/Documents/Inżynieria oprogramowania/Lab3/Simple Aggregation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
