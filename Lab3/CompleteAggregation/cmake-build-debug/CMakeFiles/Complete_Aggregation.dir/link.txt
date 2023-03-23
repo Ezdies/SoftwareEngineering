@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Complete_Aggregation.dir/main.cpp.o CMakeFiles/Complete_Aggregation.dir/THeart.cpp.o CMakeFiles/Complete_Aggregation.dir/THuman.cpp.o -o Complete_Aggregation 

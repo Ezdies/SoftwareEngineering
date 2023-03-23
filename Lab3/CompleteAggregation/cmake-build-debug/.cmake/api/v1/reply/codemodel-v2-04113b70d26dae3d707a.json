@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Complete_Aggregation",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Complete_Aggregation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Complete_Aggregation-Debug-aedcee6209714e3d5b14.json",
+					"name" : "Complete_Aggregation",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/bvbcl/Documents/In\u017cynieria oprogramowania/Lab3/Complete Aggregation/cmake-build-debug",
+		"source" : "/mnt/c/Users/bvbcl/Documents/In\u017cynieria oprogramowania/Lab3/Complete Aggregation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
