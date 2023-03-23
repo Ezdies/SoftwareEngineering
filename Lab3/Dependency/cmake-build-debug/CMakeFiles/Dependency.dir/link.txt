@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Dependency.dir/ClassA.cpp.o CMakeFiles/Dependency.dir/ClassB.cpp.o CMakeFiles/Dependency.dir/main.cpp.o -o Dependency 
