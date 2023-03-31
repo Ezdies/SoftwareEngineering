@@ -25,7 +25,7 @@ public:
 	void setHappinessLevel(int happinessLevel);
 	void doRenovation();
 private:
-	int m_happinessLevel;
+	int m_happinessLevel = 0;
 };
 
 #endif  //_TOCCUPANT_H

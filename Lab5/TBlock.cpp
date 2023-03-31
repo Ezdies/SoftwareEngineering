@@ -5,50 +5,81 @@
 //  @ Project : Untitled
 //  @ File Name : TBlock.cpp
 //  @ Date : 30.03.2023
-//  @ Author : 
+//  @ Author :
 //
 //
-
 
 #include "TBlock.h"
 
-TBlock::TBlock(int value, int addressNumber, float totalSquareMeters, int numberOfApartments, int happyTenants) {
+TBlock::TBlock(int value, int addressNumber, float totalSquareMeters, int numberOfApartments, int happyTenants)
+{
     m_totalValue = value;
     m_addressNumber = addressNumber;
     m_totalSquareMeters = totalSquareMeters;
     m_numberOfApartments = numberOfApartments;
     m_happyTenants = happyTenants;
-    
+
     m_apartments.resize(m_numberOfApartments);
 
-    for (int i = 0; i < m_numberOfApartments; i++){
+    for (int i = 0; i < m_numberOfApartments; i++)
+    {
         std::cout << "Tworze mieszkanie " << i + 1 << '\n';
         m_apartments[i] = new TApartment;
     }
+
+    std::cout << "Stworzono blok\n";
 }
 
-TBlock::~TBlock() {
+TBlock::~TBlock()
+{
+    std::cout << "\n";
 
-    for (int i = 0; i < m_numberOfApartments; i++){
+    for (int i = 0; i < m_numberOfApartments; i++)
+    {
         std::cout << "Usuwam mieszkanie " << i + 1 << '\n';
         delete m_apartments[i];
     }
     std::cout << "Usunieto blok \n";
 }
 
-void TBlock::printData() {
-    for (int i = 0; i < m_numberOfApartments; i++){
-        std::cout << "Mieszkanie " << i + 1 << '\n';
-        std::cout << m_apartments[i]->getStandard() << "\n";
-        std::cout << m_apartments[i]->getSquareMeters() << "\n";
-        std::cout << m_apartments[i]->getRoomCount() << "\n";
-        std::cout << m_apartments[i]->getRentCost() << "\n";
-        std::cout << m_apartments[i]->getNumberOfRenovations() << "\n";
-        std::cout << m_apartments[i]->getValue() << "\n";
+vector<TApartment *> TBlock::getApartments()
+{
+    return m_apartments;
+}
+
+void TBlock::setData(int i, string standard,
+                     float squareMeters, int roomCount, float rentCost, int numberOfRenovations, int value)
+{
+    if (i < m_numberOfApartments)
+    {
+        m_apartments[i]->setRentCost(rentCost);
+        m_apartments[i]->setNumberOfRenovations(numberOfRenovations);
+        m_apartments[i]->setRoomCount(roomCount);
+        m_apartments[i]->setSquareMeters(squareMeters);
+        m_apartments[i]->setStandard(standard);
+        m_apartments[i]->setValue(value);
+    }
+    else
+    {
+        std::cout << "Nie ma takiego mieszkania\n";
     }
 }
 
-void TBlock::appraise() {
-    std::cout << "Wycena budynku: " << m_totalValue << "\n"; 
+void TBlock::printData()
+{
+    for (int i = 0; i < m_numberOfApartments; i++)
+    {
+        std::cout << "\nMieszkanie " << i + 1 << '\n';
+        std::cout << "Standard: " << m_apartments[i]->getStandard() << "\n";
+        std::cout << "Metry kwadratowe: " << m_apartments[i]->getSquareMeters() << "\n";
+        std::cout << "Liczba pokoi: " << m_apartments[i]->getRoomCount() << "\n";
+        std::cout << "Koszt wynajmu: " << m_apartments[i]->getRentCost() << "\n";
+        std::cout << "Liczba remontow: " << m_apartments[i]->getNumberOfRenovations() << "\n";
+        std::cout << "Wartosc: " << m_apartments[i]->getValue() << "\n";
+    }
 }
 
+void TBlock::appraise()
+{
+    std::cout << "Wycena budynku: " << m_totalValue << "\n";
+}

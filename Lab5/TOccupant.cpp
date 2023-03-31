@@ -23,5 +23,6 @@ void TOccupant::setHappinessLevel(int happinessLevel) {
 
 void TOccupant::doRenovation() {
     m_happinessLevel++;
+    
 }
 

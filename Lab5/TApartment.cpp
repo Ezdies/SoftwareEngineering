@@ -80,5 +80,6 @@ void TApartment::setValue(int value){
 
 void TApartment::renovateApartment(TOccupant* occupant) {
     occupant->doRenovation();
+    m_numberOfRenovations++;
 }
 

@@ -18,8 +18,14 @@
 
 class TBlock {
 public:
-	TBlock(int value, int addressNumber, float totalSquareMeters, int numberOfApartments, int happyTenants);
+	TBlock(int value, int addressNumber, float totalSquareMeters, 
+	int numberOfApartments, int happyTenants);
+
 	~TBlock();
+
+	void setData(int i, string standard, 
+	float squareMeters, int roomCount, float rentCost, int numberOfRenovations, int value);
+	vector<TApartment*> getApartments();
 	void printData();
 	void appraise();
 private:
