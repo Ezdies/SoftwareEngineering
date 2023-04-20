@@ -1,0 +1,3 @@
+Może być powiązanie User ------> System
+
+Można spróbować zrobić układ sekwencji
